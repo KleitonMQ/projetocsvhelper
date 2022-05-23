@@ -1,0 +1,17 @@
+E:\ProjetosDev\Projetocsvhelper\bin\Debug\net6.0\Projetocsvhelper.exe
+E:\ProjetosDev\Projetocsvhelper\bin\Debug\net6.0\Projetocsvhelper.deps.json
+E:\ProjetosDev\Projetocsvhelper\bin\Debug\net6.0\Projetocsvhelper.runtimeconfig.json
+E:\ProjetosDev\Projetocsvhelper\bin\Debug\net6.0\Projetocsvhelper.dll
+E:\ProjetosDev\Projetocsvhelper\bin\Debug\net6.0\Projetocsvhelper.pdb
+E:\ProjetosDev\Projetocsvhelper\bin\Debug\net6.0\CsvHelper.dll
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\Projetocsvhelper.csproj.AssemblyReference.cache
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\Projetocsvhelper.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\Projetocsvhelper.AssemblyInfoInputs.cache
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\Projetocsvhelper.AssemblyInfo.cs
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\Projetocsvhelper.csproj.CoreCompileInputs.cache
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\Projetocsvhelper.csproj.CopyComplete
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\Projetocsvhelper.dll
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\refint\Projetocsvhelper.dll
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\Projetocsvhelper.pdb
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\Projetocsvhelper.genruntimeconfig.cache
+E:\ProjetosDev\Projetocsvhelper\obj\Debug\net6.0\ref\Projetocsvhelper.dll

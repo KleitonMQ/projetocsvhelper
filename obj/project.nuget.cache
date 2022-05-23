@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qQNyYKYdgcYS5ewbRybwhnwXJsizlR5KY/jlTEP9e7lzYKw8YtKzK4612RezuQvqWOxy/raHeNunTJFnzXMYuA==",
+  "success": true,
+  "projectFilePath": "E:\\ProjetosDev\\Projetocsvhelper\\Projetocsvhelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Moosh\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
