@@ -6,6 +6,50 @@ using Projetocsvhelper.Model;
 
 
 
+static void EscreverCsv()
+{
+    var path = Path.Combine(Environment.CurrentDirectory, "Saida", "usuarios.csv");
+    var di = new DirectoryInfo(path);
+
+    if (!di.Exists) di.Create();
+
+    path = Path.Combine(path, "usuarios.csv");
+
+    var pessoas = new List<Pessoa>()
+    {
+        new Pessoa()
+        {
+            Nome = "José",
+            Email = "zezinho@gmail.com",
+            Telefone = 123456,
+        },
+        new Pessoa()
+        {
+            Nome = "Hugo",
+            Email = "huguinho@gmail.com",
+            Telefone = 654321,
+        },
+        new Pessoa()
+        {
+            Nome = "Lucrecio",
+            Email = "luizinho@gmail.com",
+            Telefone = 987654,
+        }
+    };
+    using var sr = new StreamWriter(path);
+    using var csvWriter = new CsvWriter(sr, CultureInfo.InvariantCulture);
+    csvWriter.WriteRecords(pessoas);
+
+    //Esta configuração usa quando não quer usar a virgula como separador.
+    // using var sr = new StreamWriter(path);
+    // var csvConfig = new CsvConfiguration(CultureInfo.InstalledUICulture)
+    // {
+    //     Delimiter = "|"
+    // };
+    // using var csvWriter = new CsvWriter(sr, csvConfig);
+    // csvWriter.WriteRecords(pessoas);
+}
+
 static void LerCSVComOutroDelimitador()
 {
     var path = Path.Combine(Environment.CurrentDirectory, "Entrada", "preco-livro.csv");
@@ -78,6 +122,6 @@ static void LerCSVComDynamic()
 
 }
 
-LerCSVComOutroDelimitador();
+EscreverCsv();
 
 ReadLine();
